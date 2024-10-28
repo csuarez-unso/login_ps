@@ -30,7 +30,7 @@ Sigue estos pasos para instalar y configurar el sistema:
 
 1. **Clona el Repositorio**:
    ```bash
-   git clone https://github.com/csuarez/login-ps.git
+   git clone https://github.com/csuarez-unso/login-ps.git
    cd login-ps
    ```
 
