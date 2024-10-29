@@ -1,5 +1,5 @@
 # Sistema de Autenticación de Usuarios
-### Integrantes del proyecto
+### Integrantes del proyecto - Comision B - Grupo 21
 - Manuela Sanchez Diez
 - Walter Alejandro Santinon
 - Matías Benegas
