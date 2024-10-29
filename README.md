@@ -149,18 +149,11 @@ La base de datos `ps_db` incluye las siguientes tablas principales:
 - `ID`: Identificador único
 - `username`: Nombre de usuario
 - `password`: Contraseña cifrada
+- `first_name`: Nombre
+- `last_name`: Apellido
 - `email`: Correo electrónico
 - `is_admin`: Rol de usuario
-- `account_locked`: Estado de la cuenta
-- `reset_token`: Token de recuperación
-- `token_expiry`: Expiración del token
-
-### Tabla `access_logs`:
-- `log_id`: ID del registro
-- `user_id`: ID del usuario
-- `login_time`: Timestamp del acceso
-- `ip_address`: Dirección IP
-- `success`: Estado del intento
+- `last_login`: Ultimo acceso
 
 ## Funcionalidades Adicionales
 
