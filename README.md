@@ -3,7 +3,8 @@
 - Manuela Sanchez Diez
 - Walter Alejandro Santinon
 - Matías Benegas
-- Carlos Suarez
+- Carlos Suarez.
+
 Este proyecto es una aplicación web que permite a los usuarios registrarse, iniciar sesión y, en caso de ser necesario, recuperar su contraseña. Incluye un perfil de administrador que permite gestionar usuarios y ver un registro de accesos (logs).
 
 ## Tabla de Contenidos
