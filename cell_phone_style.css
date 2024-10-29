@@ -1,0 +1,78 @@
+/* cell_phone_style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #FFFFFF 0%, #A5BFD7 100%); /* Fondo blanco con degradé a celeste */
+    height: 100vh; /* Asegura que el fondo cubra toda la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-phone {
+    color: #124B80; /* Cambia el color de todos los textos dentro de .cell-phone */
+    width: 500%;
+    max-width: 400px;  /* Limita el ancho en pantallas grandes */
+    height: 500px; 
+    margin: 50px auto;
+    border-radius: 23px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6); /* Fondo blanco con 60% de transparencia */
+    position: relative; /* Para que el botón se posicione relativo a este contenedor */
+}
+
+
+.form-group label {
+    display: block; /* Hace que el label ocupe toda la línea */
+    text-align: left; /* Alinea el label a la izquierda */
+    font-weight: bold; /* Opcional: hace que el label sea negrita */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Reduce el margen inferior de cada grupo de formulario */
+}
+
+.form-control {
+    height: 35px; /* Ajusta la altura de los campos de entrada */
+    font-size: 14px; /* Ajusta el tamaño de la fuente de los campos */
+}
+
+label {
+    font-size: 13px; /* Reduce el tamaño de la fuente de las etiquetas */
+    margin-bottom: 5px; /* Reduce el margen inferior de las etiquetas */
+}
+
+.fixed-bottom-button {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    position: absolute;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 10px; /* Coloca el botón en la parte baja del contenedor */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; /* Ocupa casi todo el ancho del contenedor */
+}
+.btn-primary {
+    background-color: #124B80; /* Color de fondo para el botón de iniciar sesión */
+    border-color: #124B80; /* Color del borde para el botón de iniciar sesión */
+}
+
+.btn-primary:hover {
+    background-color: #0E3D63; /* Color de fondo al pasar el mouse para el botón de iniciar sesión */
+    border-color: #0E3D63; /* Color del borde al pasar el mouse para el botón de iniciar sesión */
+}
+
+.btn-secondary {
+    background-color: #124B80; /* Color de fondo para el botón de registrarse */
+    border-color: #124B80; /* Color del borde para el botón de registrarse */
+}
+
+.btn-secondary:hover {
+    background-color: #0E3D63; /* Color de fondo al pasar el mouse para el botón de registrarse */
+    border-color: #0E3D63; /* Color del borde al pasar el mouse para el botón de registrarse */
+}
