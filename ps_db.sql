@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-10-2024 a las 04:58:29
+-- Tiempo de generación: 29-10-2024 a las 21:20:06
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -43,10 +43,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `Username`, `Password`, `first_name`, `last_name`, `email`, `is_admin`, `last_login`) VALUES
-(17, 'admin', '$2y$10$72oWqDP7vhQZRXXLzZHc9uzimA4IxIRY4cByf6D9V9jfR00VNzjci', 'Admin', 'Admin', 'admin@correo.com', 1, '2024-10-28 23:36:03'),
+(17, 'admin', '$2y$10$2/FEmfzarh9WpYP2o7n4a.F3ALQYdRUbUzhQ1QKBsxcfvAofeMOJm', 'Admin', 'Admin', 'admin@correo.com', 1, '2024-10-29 20:18:47'),
 (18, 'Usuario1', '$2y$10$Vh624wv146kfxK9alL9mguzowG.U4lAiXpLNfBfIrc5ke86FRpek.', 'Usuario1', 'Uno', 'usuario1@correo.com', 0, '2024-10-13 11:57:46'),
 (19, 'Usuario2', '$2y$10$Zw6lv.4vPVKQt92JsUeMSeGlhHRZ0v4enjlW2NQ5ohP4QCkom4/CG', 'Usuario2', 'Dos', 'usuario2@correo.com', 0, '2024-10-13 12:09:54'),
-(20, 'admin1', '$2y$10$MruDiVxnobP4e3NjQXsMce2FZoikoWUvRKM3VUc2XkF9ZqRUXG9Jy', 'Admin1', 'DevOps', 'admin1@mail.com', 1, '2024-10-28 23:23:37');
+(20, 'admin1', '$2y$10$MruDiVxnobP4e3NjQXsMce2FZoikoWUvRKM3VUc2XkF9ZqRUXG9Jy', 'Admin1', 'DevOps', 'admin1@mail.com', 1, '2024-10-29 20:16:55');
 
 --
 -- Índices para tablas volcadas
