@@ -40,14 +40,19 @@ Sigue estos pasos para instalar y configurar el sistema:
    ```
 
 2. **Configura la Base de Datos**:
+   - Bajar e instalar Xampp https://www.apachefriends.org/es/index.html
    - Abre PHPMyAdmin en el navegador (http://localhost/phpmyadmin)
    - Crea una nueva base de datos llamada `ps_db`
    - Importa el archivo SQL `ps_db.sql` en la base de datos `ps_db`
+   - Crear un usuario llamado root_ps y asignarle una contraseña root123
 
 3. **Configura el Servidor Web**:
    - Coloca el proyecto en la carpeta `htdocs` de XAMPP
    - Asegúrate de que Apache y MySQL estén activos en el panel de control de XAMPP
-   - Accede al sistema en http://localhost/proyecto-autenticacion
+
+4. **Acceder al sistema**:
+   - loguearse al sistema en http://localhost/login_ps/
+   - Administradores: usuario: admin password: root123! , usuario: admin1 password: m123456*NN
 
 ## Estructura del Proyecto
 
@@ -75,7 +80,7 @@ proyecto-autenticacion/
 ├── assets/
 │   └── logo.PNG                   # Logo del sistema
 ├── php.ini                        # Configuración de PHP
-└── readme-markdown.md             # Documentación del proyecto
+└── README.md                      # Documentación del proyecto
 ```
 
 ## Diseño de Interfaz
@@ -115,10 +120,10 @@ Los mockups incluyen todas las vistas del sistema:
 
 #### Archivos Relacionados:
 - `change_password.php`: Permite cambiar la contraseña
-- `send_new_password.php`: Envía enlaces de recuperación
+- `send_new_password.php`: Envía enlaces de recuperación TODO
 
 #### Funcionalidades:
-- Recuperación de contraseña mediante correo electrónico
+- Recuperación de contraseña mediante correo electrónico TODO
 - Generación y validación de tokens temporales
 - Proceso seguro de cambio de contraseña
 
